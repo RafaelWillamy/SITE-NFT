@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CAIXAS COM OS ICONS-->
+    <link href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" rel="stylesheet">
+    <!-- STYLES CSS-->
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- BARRA DE ROLAGEM PERSONALIZADA-->
+    <div class="progress">
+        <div class="progress-bar" id="scroll-bar"></div>
+    </div>
+    <header>
+        <div class="nav container">
+            <a href="index.html" class="logo"> Rockeseat<span>NFTS</span></a>
+            <div class="nav_icons">
+                <i class="bx bx-bell bx-tada" id="bell-icon"><span></span></i>
+                <i class="bx bxs-dowload"></i>
+                <div class="menu-icon"></div>
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+
+        <!---- MENU-->
+        <div class="menu">
+            <img src="assets/home.jpg" alt="">
+            <div class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Tendências</a></li>
+                <li><a href="index.html">Última NFT</a></li>
+                <li><a href="index.html">Populares</a></li>
+                <li><a href="index.html">Fale Conosco</a></li>
+            </div>
+        </div>
+
+        <!--- NOTIFICAÇÃO-->
+        <div class="notification">
+            <div class="notification-box">
+                <i class="bx bxs-check-circle"></i>
+                <p>Parabéns, você comprou NFTs com sucesso</p>
+            </div>
+            <div class="notification-box box-color">
+                <i class="bx bx-x-circle"></i>
+                <p> Ops, não possível fazer alterações. Desculpe !</p>
+            </div>
+        </div>
+    </header>
+    <!---- BANNER INICIAL-->
+    <section class="home container" id="home">
+        <img src="assets/home.jpg" alt="">
+        <div class="home-text">
+            <h1>
+                <span class="text-type" data-wait="2000" data-words ='["Criar NFTs", "VENDER"]'></span>
+
+            </h1>
+            <a href="#" class="btn"> Compre agora</a>
+        </div>
+    </section>
+    <section class="trending container" id="trending">
+        <div class="heading">
+            <i class="bx bxs-flame"></i>
+            <h2>Tendências</h2>
+        </div>
+        
+        <div class="trending-content swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="assets/Bored Ape Yacht Club.png" alt="">
+                        <div class="box-text">
+                            <h2>Iate Macaco com entediado</h2>
+                            <h3>Tendência</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bx-star"></i>
+                                    <span>4.7</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="assets/Meta Legend.png" alt="">
+                        <div class="box-text">
+                            <h2>Meta Legenda</h2>
+                            <h3>Trending</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bx-star"></i>
+                                    <span>4.7</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="assets/CLONE X.png" alt="">
+                        <div class="box-text">
+                            <h2>CLONE X</h2>
+                            <h3>Tendências</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bx-star"></i>
+                                    <span>4.7</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="assets/CryptoPunks.png" alt="">
+                        <div class="box-text">
+                            <h2>CryptoPunks</h2>
+                            <h3>Tendências</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bx-star"></i>
+                                    <span>4.7</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="assets/Mutant Ape Yacht Club.png" alt="">
+                        <div class="box-text">
+                            <h2>Iate Clube do Macoco mutante</h2>
+                            <h3>Tendência</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bx-star"></i>
+                                    <span>4.7</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="assets/Doodle.png" alt="">
+                        <div class="box-text">
+                            <h2> Rabisco</h2>
+                            <h3>Tendência</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bx-star"></i>
+                                    <span>4.7</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="assets/Pepsi Mic Drop.png" alt="">
+                        <div class="box-text">
+                            <h2>Pepsi Mic Drop</h2>
+                            <h3>Tendência</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bx-star"></i>
+                                    <span>4.7</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="assets/Kong.png" alt="">
+                        <div class="box-text">
+                            <h2>Kong</h2>
+                            <h3>Tendência</h3>
+                            <div class="rating-download">
+                                <div class="rating">
+                                    <i class="bx bx-star"></i>
+                                    <span>4.7</span>
+                                </div>
+                                <a href="#" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NOVA SECTION -->
+    <section class="new container" id="new">
+        <div class="heading">
+            <i class="bx bx-infinite"></i>
+            <h2> Lançamento</h2>
+        </div>
+        <div class="new-content">
+            <div class="box">
+                <img src="assets/bored-ape-yacht-club3-e1643290520341.jpeg" alt="">
+                <div class="box-text">
+                    <h2>Monstro Pateta</h2>
+                    <h3>Lançamento</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <span>4.8</span>
+                        </div>
+                        <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/90011100239760246456143489062138855324268035808586156049490219138786971877396/" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/Gutter Cat.png" alt="">
+                <div class="box-text">
+                    <h2> Gato da sarjeta</h2>
+                    <h3> Lançamento</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <span>4.8</span>
+                        </div>
+                        <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/90011100239760246456143489062138855324268035808586156049490219138786971877396/" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/Hooligan.png" alt="">
+                <div class="box-text">
+                    <h2>Hooligan</h2>
+                    <h3> Lançamento</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <span>4.8</span>
+                        </div>
+                        <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/90011100239760246456143489062138855324268035808586156049490219138786971877396/" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/Gutter Cat.png" alt="">
+                <div class="box-text">
+                    <h2>Kongz</h2>
+                    <h3>Lançamento</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <span>4.8</span>
+                        </div>
+                        <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/90011100239760246456143489062138855324268035808586156049490219138786971877396/" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/https___hypebeast.com_image_2021_10_bored-ape-yacht-club-nft-3-4-million-record-sothebys-metaverse-0.webp" alt="">
+                <div class="box-text">
+                    <h2>Mosntro Triste</h2>
+                    <h3> Lançamento</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <span>4.8</span>
+                        </div>
+                        <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/90011100239760246456143489062138855324268035808586156049490219138786971877396/" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/Squish.png" alt="">
+                <div class="box-text">
+                    <h2>Esmagar</h2>
+                    <h3> Lançamento</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <span>4.8</span>
+                        </div>
+                        <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/90011100239760246456143489062138855324268035808586156049490219138786971877396/" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/Pepsi Mic Drop.png" alt="">
+                <div class="box-text">
+                    <h2>Pepsi Mic Drop</h2>
+                    <h3> Lançamento</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <span>4.8</span>
+                        </div>
+                        <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/90011100239760246456143489062138855324268035808586156049490219138786971877396/" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/Desperate ApeWife.png" alt="">
+                <div class="box-text">
+                    <h2> Esposa Macaco</h2>
+                    <h3> Lançamento</h3>
+                    <div class="rating-download">
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <span>4.8</span>
+                        </div>
+                        <a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/90011100239760246456143489062138855324268035808586156049490219138786971877396/" class="box-btn"><i class="bx bx-down-arrow-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="next-page">
+            <a href=""> Próxima página</a>
+        </div>
+    </section>
+
+    <!-- Copyright Footer -->
+    <div class="copyright container">
+        <a href="#" class="logo">NFT <span> Loja</span></a>
+        <p>&copy; Rafael Willamy. Todos os direitos reservados</p>
+    </div>
+
+    <script src="swiper-bundle.min.js"></script>
+    <script src="index.js/main.js"></script>
+</body>
+</html>
